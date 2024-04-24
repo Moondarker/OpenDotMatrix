@@ -24,7 +24,7 @@ jobs:
         cache: 'pip'
     - name: Install dependencies
       run: pip install -r requirements.txt
-    - name: Collect stats
+    - name: Compile the font
       run: python main.py
     - name: Archive stats
       uses: actions/upload-artifact@v3
