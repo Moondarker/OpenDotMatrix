@@ -1,6 +1,6 @@
 familyName = "Open Dot Matrix"
 styleName = "Normal"
-version = "1.0"
+version = "1.1"
 
 nameStrings = dict(
     familyName=dict(en=familyName),
