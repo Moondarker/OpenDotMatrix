@@ -22,6 +22,6 @@ jobs:
     - name: Collect stats
       run: python main.py
     - name: Release
-        uses: softprops/action-gh-release@v2
-        with:
-          files: OpenDotMatrix.ttf
+      uses: softprops/action-gh-release@v2
+      with:
+        files: OpenDotMatrix.ttf
